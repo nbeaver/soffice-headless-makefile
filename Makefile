@@ -1,5 +1,5 @@
-ODS = $(wildcard *.ods)
-XLSX = $(patsubst %.ods, %.xlsx, $(ODS))
+ODS := $(wildcard *.ods)
+XLSX := $(patsubst %.ods, %.xlsx, $(ODS))
 
 all: $(XLSX)
 
