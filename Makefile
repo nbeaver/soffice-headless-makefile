@@ -14,4 +14,4 @@ TMPDIR = $(shell mktemp -d)
 
 
 clean:
-	rm -f $(XLSX)
+	rm -f -- $(XLSX)
